@@ -1,0 +1,51 @@
+{
+	"users": [{
+			"id": 1,
+			"first_name": "Jeanette",
+			"last_name": "Penddreth",
+			"email": "jpenddreth0@census.gov",
+			"gender": "Female",
+			"address": {
+				"street": "38 avenue de l'Opera",
+				"city": "Paris",
+				"state": "",
+				"postalCode": "F-75002",
+				"countryCode": "FRA",
+				"country": "France"
+			},
+			"phone": [{
+					"type": "home",
+					"number": "+33 123 555-1234"
+				},
+				{
+					"type": "mobile",
+					"number": "+33 123 555-4567"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"first_name": "John",
+			"last_name": "Smith",
+			"email": "jsmith@test.com",
+			"gender": "Male",
+			"address": {
+				"street": "21 2nd Street",
+				"city": "New York",
+				"state": "NY",
+				"postalCode": "10021",
+				"countryCode": "USA",
+				"country": "United States of America"
+			},
+			"phone": [{
+					"type": "home",
+					"number": "+1 212 555-1234"
+				},
+				{
+					"type": "mobile",
+					"number": "+1 646 555-4567"
+				}
+			]
+		}
+	]
+}
