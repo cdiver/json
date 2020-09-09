@@ -24,7 +24,7 @@
 			],
 			"bankAccounts":[{
 					"accountHolderName" : "Jeanette Penddreth",
-      					"accountNumber" : "9876543210",
+      					"accountNumber" : 9876543210,
       					"bankAccountType" : "savings",
       					"bankBranchCode" : 123456
 				}
@@ -55,7 +55,7 @@
 			],
 			"bankAccounts":[{
 					"accountHolderName" : "John Smith",
-      					"accountNumber" : "98989898989898",
+      					"accountNumber" : 98989898989898,
       					"bankAccountType" : "deposit",
       					"bankBranchCode" : 121212
 				}
