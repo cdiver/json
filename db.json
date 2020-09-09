@@ -65,6 +65,7 @@
 	"policies": [{
 			"id": 1,
 			"userId": 1,
+			"policyName":"Auto 101",
 			"effectiveDate":"2019-10-01T12:00:00.000Z",
 			"premiumAmount":7274,
 			"nextPaymentDue":"2020-09-30T12:00:00.000Z",
@@ -75,6 +76,7 @@
 		{
 			"id": 2,
 			"userId": 1,
+			"policyName":"Home 2020",
 			"effectiveDate":"2019-10-01T12:00:00.000Z",
 			"premiumAmount":8275,
 			"nextPaymentDue":"2020-09-30T12:00:00.000Z",
@@ -85,6 +87,7 @@
 		{
 			"id": 3,
 			"userId": 2,
+			"policyName":"Auto 101",
 			"effectiveDate":"2020-05-01T12:00:00.000Z",
 			"premiumAmount":9277,
 			"nextPaymentDue":"2021-04-30T12:00:00.000Z",
