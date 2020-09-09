@@ -1,8 +1,8 @@
 {
 	"users": [{
 			"id": 1,
-			"first_name": "Jeanette",
-			"last_name": "Penddreth",
+			"firstName": "Jeanette",
+			"lastName": "Penddreth",
 			"email": "jpenddreth0@census.gov",
 			"gender": "Female",
 			"address": {
@@ -22,7 +22,7 @@
 					"number": "+33 123 555-4567"
 				}
 			],
-			"bank_accounts":[{
+			"bankAccounts":[{
 					"accountHolderName" : "Jeanette Penddreth",
       					"accountNumber" : "9876543210",
       					"bankAccountType" : "savings",
@@ -32,8 +32,8 @@
 		},
 		{
 			"id": 2,
-			"first_name": "John",
-			"last_name": "Smith",
+			"firstName": "John",
+			"lastName": "Smith",
 			"email": "jsmith@test.com",
 			"gender": "Male",
 			"address": {
@@ -53,7 +53,7 @@
 					"number": "+1 646 555-4567"
 				}
 			],
-			"bank_accounts":[{
+			"bankAccounts":[{
 					"accountHolderName" : "John Smith",
       					"accountNumber" : "98989898989898",
       					"bankAccountType" : "deposit",
@@ -64,33 +64,33 @@
 	],
 	"policies": [{
 			"id": 1,
-			"user_id": 1,
-			"effective_date":"2020-03-01T12:00:00.000Z",
-			"premium_amount":7274,
-			"advance_premium":0,
-			"insured_age_at_effective_date":24,
-			"policy_holder_age_at_effective_date":24,
-			"first_payment":0
+			"userId": 1,
+			"effectiveDate":"2020-03-01T12:00:00.000Z",
+			"premiumAmount":7274,
+			"advancePremium":0,
+			"insuredAgeAtEffectiveDate":24,
+			"policyHolderAgeAtEffectiveDate":24,
+			"firstPayment":0
 		},
 		{
 			"id": 2,
-			"user_id": 1,
-			"effective_date":"2020-04-01T12:00:00.000Z",
-			"premium_amount":8275,
-			"advance_premium":0,
-			"insured_age_at_effective_date":24,
-			"policy_holder_age_at_effective_date":24,
-			"first_payment":0
+			"userId": 1,
+			"effectiveDate":"2020-04-01T12:00:00.000Z",
+			"premiumAmount":8275,
+			"advancePremium":0,
+			"insuredAgeAtEffectiveDate":24,
+			"policyHolderAgeAtEffectiveDate":24,
+			"firstPayment":0
 		},
 		{
 			"id": 3,
-			"user_id": 2,
-			"effective_date":"2020-05-01T12:00:00.000Z",
-			"premium_amount":9277,
-			"advance_premium":0,
-			"insured_age_at_effective_date":34,
-			"policy_holder_age_at_effective_date":34,
-			"first_payment":0
+			"userId": 2,
+			"effectiveDate":"2020-05-01T12:00:00.000Z",
+			"premiumAmount":9277,
+			"advancePremium":0,
+			"insuredAgeAtEffectiveDate":34,
+			"policyHolderAgeAtEffectiveDate":34,
+			"firstPayment":0
 		}
 	]
 }
