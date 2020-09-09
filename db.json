@@ -65,32 +65,32 @@
 	"policies": [{
 			"id": 1,
 			"userId": 1,
-			"effectiveDate":"2020-03-01T12:00:00.000Z",
+			"effectiveDate":"2019-10-01T12:00:00.000Z",
 			"premiumAmount":7274,
-			"advancePremium":0,
+			"nextPaymentDue":"2020-09-30T12:00:00.000Z",
 			"insuredAgeAtEffectiveDate":24,
 			"policyHolderAgeAtEffectiveDate":24,
-			"firstPayment":0
+			"autoRenew":false
 		},
 		{
 			"id": 2,
 			"userId": 1,
-			"effectiveDate":"2020-04-01T12:00:00.000Z",
+			"effectiveDate":"2019-10-01T12:00:00.000Z",
 			"premiumAmount":8275,
-			"advancePremium":0,
+			"nextPaymentDue":"2020-09-30T12:00:00.000Z",
 			"insuredAgeAtEffectiveDate":24,
 			"policyHolderAgeAtEffectiveDate":24,
-			"firstPayment":0
+			"autoRenew":true
 		},
 		{
 			"id": 3,
 			"userId": 2,
 			"effectiveDate":"2020-05-01T12:00:00.000Z",
 			"premiumAmount":9277,
-			"advancePremium":0,
+			"nextPaymentDue":"2021-04-30T12:00:00.000Z",
 			"insuredAgeAtEffectiveDate":34,
 			"policyHolderAgeAtEffectiveDate":34,
-			"firstPayment":0
+			"autoRenew":false
 		}
 	]
 }
